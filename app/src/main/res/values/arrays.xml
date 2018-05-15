@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="loadingColors">
+        <item>@color/step_1</item>
+        <item>@color/step_2</item>
+        <item>@color/step_3</item>
+        <item>@color/step_4</item>
+        <item>@color/step_5</item>
+        <item>@color/step_6</item>
+        <item>@color/step_7</item>
+        <item>@color/step_8</item>
+        <item>@color/step_9</item>
+        <item>@color/step_10</item>
+        <item>@color/step_11</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/img_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_bar"
+        android:layout_below="@id/img_top"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <TextView
+            style="@style/SettingTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/d_list" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/txt_bg_white"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/SettingTxtStyle"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="@string/m_name" />
+            <TextView
+                style="@style/SettingTxtStyle"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:text="@string/m_place" />
+            <TextView
+                style="@style/SettingTxtStyle"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="@string/m_user" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/device_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_bar"
+        android:layout_above="@id/img_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_add" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_back" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/copy" />
+
+</RelativeLayout>

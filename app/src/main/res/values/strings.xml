@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">igm</string>
+
+    <string name="setting">기기설정</string>
+    <string name="info">제품소개</string>
+
+    <string name="d_list">저장된 기기 목록</string>
+
+    <string name="m_info">기기정보 입력</string>
+    <string name="m_modify">기기정보 수정</string>
+    <string name="m_name">S / N</string>
+    <string name="m_place">기기명</string>
+    <string name="m_user">비  고</string>
+
+    <string name="dialog_save">저장되었습니다.</string>
+    <string name="dialog_save_err">중복된 기기 또는 기기명입니다.</string>
+    <string name="dialog_modify">수정되었습니다.</string>
+
+    <string name="modify">수정</string>
+    <string name="delete">삭제</string>
+
+    <string name="err_s_name">기기를 선택해주세요.</string>
+    <string name="err_s_place">기기명을 입력해주세요.</string>
+    <string name="err_s_user">사용자를 입력해주세요.</string>
+
+    <string name="bt_title">Bluetooth Device List</string>
+    <string name="bt_on">블루투스 기능이 활성화되었습니다.</string>
+    <string name="bt_err1">블루투스 기능을 지원하지 않는 단말입니다.</string>
+    <string name="bt_err2">블루투스 기능 활성화에 실패하였습니다.</string>
+
+
+    <string name="dialog_title">알림</string>
+    <string name="dialog_msg">설정된 기기가 없습니다.\n기기설정 화면으로 이동합니다.</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+
+    <string name="play_status">기기세척 진행상황</string>
+
+    <string name="dummy_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>

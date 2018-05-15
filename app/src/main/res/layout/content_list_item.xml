@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/txt_bg_white"
+    android:orientation="horizontal">
+
+    <TextView
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/d_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/m_name"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/d_place"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/m_place"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/d_user"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/m_user"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+</LinearLayout>
